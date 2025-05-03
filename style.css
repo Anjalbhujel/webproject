@@ -7,17 +7,21 @@ body{
     background-color: #ffffff;
 }
 .logo{
+    font-size: 2em;
     color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+   
 }
 ul{
-    font-size:x-large;
+    font-size:1.6em;
     display: flex;
+    padding-right: 90px;
    gap:60px;
-   color: white;
-   text-shadow:1px 1px 3px rgba(0, 0, 0, 0.7);
+   color: rgb(255, 255, 255);
+   text-shadow:1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 .image{
-    background-image: url('travel.jpg');
+  background-image: url('travel.jpg');
 }
 .content{
         color: white;
@@ -89,5 +93,137 @@ ul{
     padding: 0 10px 10px;
     color: #555;
   }
-  
+  .packages{
+    margin:3% 3%;
+    background-color: #f5f4f4;
+    padding: 60px;
 
+  }
+  .packages h1{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 2%;
+  }
+  .list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .place{
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 250px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+ .place img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+ }
+ .place:hover {
+  transform: scale(1.05);
+ }  
+  .place p {
+    padding: 0 10px 10px;
+    color: #383838;
+  }
+  .place h2 {
+    padding: 0 10px 10px;
+    font-size:2em;
+  }
+  .place h3 {
+    color: #222222;
+    padding:0 9px;
+    font-size:1em;
+  }
+  .place button {
+    background-color: orange; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 7px;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+.gallery{
+  margin: 3% 3%;
+  background-color: #f5f4f4;
+  padding: 60px;
+}
+.gallery-container{
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.gallery-container img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.gallery-container img:hover {
+  transform: scale(1.05);
+}
+.gallery-container button{
+  background-color: rgb(252, 251, 251);
+  border-color:  orange;
+  border-radius: 16px;
+  color: orange;
+  padding: 10px 20px;
+  text-align: center;
+  border-width: 1px;
+}
+.aboutus{
+  margin: 3% 3%;
+  background-color: #f5f4f4;
+  padding: 60px;
+  overflow: hidden;
+}
+.aboutus h1{
+  font-size: 3em;
+  margin-bottom: 2%;
+}
+.aboutus h2{
+  font-size: 1.3em;
+  color: #383838;
+}
+.holder{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 41vh;
+}
+.holder p{
+  font-size: 1.2em;
+  padding: 0 20px;
+  color: #383838;
+}
+.holder img{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+;
+
+}
+.txt button{
+  background-color: orange; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 5px 18px;
+  cursor: pointer;
+  border-radius: 7px;
+  
+}
